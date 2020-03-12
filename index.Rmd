@@ -1,6 +1,7 @@
 --- 
-title: "A Minimal Book Example"
-author: "Yihui Xie"
+title: "Notes for Data Science in Action in Response to the Outbreak
+  of COVID-19"
+author: "Jun Yan"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 output: bookdown::gitbook
@@ -8,29 +9,93 @@ documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
-github-repo: rstudio/bookdown-demo
-description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
+github-repo: jun-yan/dsa-epi
+description: "This is a collection of notes for a seminar course at
+  SXUFE during the pandemic of COVID-19"
 ---
 
-# Prerequisites
+# Technical Preparation {-}
 
-This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports, e.g., a math equation $a^2 + b^2 = c^2$.
+This course aims to embrace the opportunities and challenges from the
+pandemic of COVID-19 through an application oriented,
+learning-by-doing environment. Students work in groups on a project of
+their choice, present their discoveries, and submit a final report.
 
-The **bookdown** package can be installed from CRAN or Github:
 
-```{r eval=FALSE}
-install.packages("bookdown")
-# or the development version
-# devtools::install_github("rstudio/bookdown")
-```
+A good course project requires a lot of effort from both the team
+members and the coach. A whole cycle of statistical project consists
+of problem formulation, data preparation, implementation, validation
+via simulation, data analysis, and writing. You will pick up skills in
+literature search, fast learning, peer review, team work, and
+communication, among others.
 
-Remember each Rmd file contains one and only one chapter, and a chapter is defined by the first-level heading `#`.
 
-To compile this example to PDF, you need XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <https://yihui.name/tinytex/>.
+The project should be statistically solid. This is not that easy. Just
+give your best shot. It should be something that you
+would not regret spending time for. You will need input from the
+coaches, dig into the references they recommend, and implement new
+ideas when necessary. Do not always count on canned routines. Think of
+yourselves as developers instead of just users. Look into other
+people's source code, learn from them, and make them better. It
+takes a long time training and try-and-error to do this.
 
-```{r include=FALSE}
-# automatically create a bib database for R packages
-knitr::write_bib(c(
-  .packages(), 'bookdown', 'knitr', 'rmarkdown'
-), 'packages.bib')
-```
+
+To get a profesional-looking, reproducible project report that can be
+turned into a journal article submission, and to collaborate smoothly
+with your teammates, you need to learn some basic technicals kills.
+These skills are useful beyond this course. They are easy to pick up
+as long as you practice them in your daily life. You can do it. I have
+taught many students who found it most effort-taking but most
+rewarding.
+
+
+## R {-}
+
+If you are new to R, find some tutorials and go over them. If you know
+the basics, Hadley Wickham's "Advanced R" is a good intermediate level
+text.
+
+
+## Git and GitHub {-}
+
+A good tutorial in Chinese by Xuefeng Liao is
+[here](https://www.liaoxuefeng.com/wiki/896043488029600).
+
+## Building Bookdown Book {-}
+
+1. R packages not found. Install them.
+1. R package xml2 has an nonzero exit status. Had to search and find
+   the solution was to install the devel version from GitHub.
+1. Error: Functions that produce HTML output found in document
+   targeting latex output. Searched and found a reported
+   [issue](https://github.com/rstudio/bookdown/issues/440).
+   Followed the instructions to install package webshot and phantomJS.
+   Nonetheless, it did not solve the problem. Then installed bookdown
+   from the latest source on GitHub.
+1. Package fontspec Error: The font "Source Code Pro" cannot be found.
+   Searched and found an existing
+   [issue](https://github.com/syl20bnr/spacemacs/issues/8085).
+1. Package fontspec Error: The font "Alegreya" cannot be found.
+   Download and install the Alegreya fonts. Had to search how to
+   install fonts on Mac.
+
+<!-- This is a _sample_ book written in **Markdown**. You can use anything that Pandoc's Markdown supports, e.g., a math equation $a^2 + b^2 = c^2$. -->
+
+<!-- The **bookdown** package can be installed from CRAN or Github: -->
+
+<!-- ```{r eval=FALSE} -->
+<!-- install.packages("bookdown") -->
+<!-- # or the development version -->
+<!-- # devtools::install_github("rstudio/bookdown") -->
+<!-- ``` -->
+
+<!-- Remember each Rmd file contains one and only one chapter, and a chapter is defined by the first-level heading `#`. -->
+
+<!-- To compile this example to PDF, you need XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <https://yihui.name/tinytex/>. -->
+
+<!-- ```{r include=FALSE} -->
+<!-- # automatically create a bib database for R packages -->
+<!-- knitr::write_bib(c( -->
+<!--   .packages(), 'bookdown', 'knitr', 'rmarkdown' -->
+<!-- ), 'packages.bib') -->
+<!-- ``` -->
