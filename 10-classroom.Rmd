@@ -1,0 +1,94 @@
+# GitHub Classroom {#classroom}
+
+We use [GitHub Classroom](https://classroom.github.com) to host the
+repos of all homework submissions. The 
+
+## Jump start with Git and GitHub
+Work on the exercises of the first two sections of the free online Git
+tutorial at [Rithm School](https://www.rithmschool.com/courses/git).
+
+The assignment invitation URL is
+[here](https://classroom.github.com/a/viVpP5XY).
+
+
+## Get familiar with building from source
+
+Use Git to clone the source of Hadley Wickham's
+**Advanced R Programming**
+from his GitHub repository to a local space on your own
+computer. Build the book using RStudio. During the building process,
+you may see error messages due to missing tools on your computer. Read
+the error messages carefully and fix them. Keep trying until you build
+the book. You may need to install some R packages, some fonts, some \LaTeX\
+packages, and some building tools for R packages. On Windows, some
+codes for parallel computing may not work and need to be swapped
+out. Document the problems you encountered and how you solved them in
+an R Markdown file named `README.Rmd`. Push it to your homework GitHub
+repository so that it can help other students to build the book. 
+
+The assignment invitation URL is
+[here](https://classroom.github.com/a/04FxCXkp).
+
+## Using RMarkdown
+Use **bookdown** or **rmarkdown** to produce a report for the
+following task. Consider approximation of the distribution function of
+$N(0, 1)$,
+\begin{equation}
+\Phi(t) = \int_{-\infty}^t \frac{1}{\sqrt{2\pi}} e^{-y^2 / 2} \dd y,
+(\#eq:cdf)
+\end{equation}
+by the Monte Carlo methods:
+\begin{equation}
+\hat\Phi(t) = \frac{1}{n} \sum_{i=1}^n I(X_i \le t),
+\end{equation}
+where $X_i$'s are a random sample from $N(0, 1)$, and $I(\cdot)$ is
+the indicator function. Experiment with the approximation at
+$n \in \{10^2, 10^3, 10^4\}$ at
+$t \in \{0.0, 0.67, 0.84, 1.28, 1.65, 2.32, 2.58, 3.09, 3.72\}$ to
+form a table.
+
+
+The table should include the true value for comparison.
+Further, repeat the experiment 100 times. Draw box plots of the 100
+approximation errors at each $t$ using **ggplot2** [@R-ggplot2] for
+each $n$. The report should look like a manuscript, with a title, an
+abstract, and multiple sections. It should contain at least one math
+equation, one table, one figure, and one chunk of R code. The template
+of our Data Science Lab can be helpful:
+<https://statds.org/template/>, the source of which is at
+<https://github.com/statds/dslab-templates>.
+
+The assignment invitation URL is
+[here](https://classroom.github.com/a/4QZ_f0S0).
+
+## Topic Presentation
+
+The invitation link is
+[here](https://classroom.github.com/g/csLGwPPe).
+
+
+## Final Project
+
+The invitation link is
+[here](https://classroom.github.com/g/xCeLKsNZ).
+
+
+<!-- You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods). -->
+
+<!-- Figures and tables with captions will be placed in `figure` and `table` environments, respectively. -->
+
+<!-- ```{r nice-fig, fig.cap='Here is a nice figure!', out.width='80%', fig.asp=.75, fig.align='center'} -->
+<!-- par(mar = c(4, 4, .1, .1)) -->
+<!-- plot(pressure, type = 'b', pch = 19) -->
+<!-- ``` -->
+
+<!-- Reference a figure by its code chunk label with the `fig:` prefix, e.g., see Figure \@ref(fig:nice-fig). Similarly, you can reference tables generated from `knitr::kable()`, e.g., see Table \@ref(tab:nice-tab). -->
+
+<!-- ```{r nice-tab, tidy=FALSE} -->
+<!-- knitr::kable( -->
+<!--   head(iris, 20), caption = 'Here is a nice table!', -->
+<!--   booktabs = TRUE -->
+<!-- ) -->
+<!-- ``` -->
+
+<!-- You can write citations, too. For example, we are using the **bookdown** package [@R-bookdown] in this sample book, which was built on top of R Markdown and **knitr** [@xie2015]. -->
