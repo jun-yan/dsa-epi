@@ -14,6 +14,9 @@ description: "This is a collection of notes for a seminar course at
   SXUFE during the pandemic of COVID-19"
 ---
 
+\newcommand{\dd}{\mathrm{d}}
+
+
 # Technical Preparation {-}
 
 This course aims to embrace the opportunities and challenges from the
@@ -55,6 +58,8 @@ If you are new to R, find some tutorials and go over them. If you know
 the basics, Hadley Wickham's "Advanced R" is a good intermediate level
 text.
 
+See also the materials listed in the preliminary chapter in my notes
+for [Statistical Computing](https://jun-yan.github.io/stat-5361/).
 
 ## Git and GitHub {-}
 
@@ -93,9 +98,9 @@ A good tutorial in Chinese by Xuefeng Liao is
 
 <!-- To compile this example to PDF, you need XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): <https://yihui.name/tinytex/>. -->
 
-<!-- ```{r include=FALSE} -->
-<!-- # automatically create a bib database for R packages -->
-<!-- knitr::write_bib(c( -->
-<!--   .packages(), 'bookdown', 'knitr', 'rmarkdown' -->
-<!-- ), 'packages.bib') -->
-<!-- ``` -->
+```{r include=FALSE}
+# automatically create a bib database for R packages
+knitr::write_bib(c(
+  .packages(), 'bookdown', 'knitr', 'rmarkdown', 'ggplot2'
+), 'packages.bib')
+```
