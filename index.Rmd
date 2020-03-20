@@ -55,7 +55,7 @@ rewarding.
 ## R {-}
 
 If you are new to R, find some tutorials and go over them. If you know
-the basics, Hadley Wickham's "Advanced R" is a good intermediate level
+the basics, Hadley Wickham's "Advanced R Programing" is a good intermediate level
 text.
 
 See also the materials listed in the preliminary chapter in my notes
