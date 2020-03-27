@@ -1,0 +1,86 @@
+# Resources {#resources}
+
+## Intermediate R
+
+The presentations at a [local SIAM
+workshop in Spring 2018](https://siam.math.uconn.edu/events/) given by
+Wenjie Wang, a former PhD student of mine, now at Eli Lilly, can be
+enlighting:
+- <https://github.com/wenjie2wang/2018-01-19-siam>
+- <https://github.com/wenjie2wang/2018-04-06-siam>
+
+
+The __Advanced R Programming__ book [@wickham2019advanced] by Hadley
+Wickham is available at <https://adv-r.hadley.nz/>. The source that
+generated the book is kindly made available at GitHub:
+<https://github.com/hadley/adv-r>. It is a great learning experience
+to complile the book from the source, during which you may pick up
+many necessary skills.
+
+
+To make R work efficiently, a lot of skills are needed. Even an
+experienced user would find unified resources of efficient R
+programming [@gillespie2016efficient] useful:
+<https://csgillespie.github.io/efficientR/>.
+
+## RMarkdown/Bookdown/Blogdown
+
+Following the step by step the instructions in Yihui Xie's online book
+on __bookdown__ [@xie2016bookdown] at
+<https://bookdown.org/yihui/bookdown/>, you will be amazed how quickly
+you can learn to produce cool-looking documents and even book
+manuscripts. If you are a keener, you may as well follow Yihui's
+__blogdown__ [@xie2017blogdown], see the online book
+<https://bookdown.org/yihui/blogdown/>, to build your own website
+using R Markdown.
+
+Build your own website with [blogdown](https://bookdown.org/yihui/blogdown/).
+
+UConn Data Science Lab has a template for cool, reproducible
+statistical [report](https://statds.org/template/).
+
+## Git and GitHub
+
+RStudio has made using Git quite straightforward. The online tutorial
+by Jenny Bryan, Happy Git and GitHub for the useR at
+<https://happygitwithr.com/>, is a very useful tool to get started.
+
+Hadley Wickham's guide to Git and GitHub:
+\url{http://r-pkgs.had.co.nz/git.html}.
+
+A good tutorial in Chinese by Xuefeng Liao is
+[here](https://www.liaoxuefeng.com/wiki/896043488029600).
+
+## Styles
+
+If you have used R, but never paid attention to R programming styles,
+a style clinic would be a necessary step. A good place to start Hadley
+Wickham's tidyverse style guide at <http://style.tidyverse.org/>. From
+my experience, the two most commonly overlooked styles for beginners
+are spacing and indentation. Appropriate spacing and indentation would
+immediately make crowdly piled code much more eye-friendly. Such
+styles can be automatically enforced by R packages such as **formatr**
+or **lintr**. Two important styles that cannot be automatically
+corrected are naming and documentation. As in any programming
+languate, naming of R objects (variables, functions, files, etc.)
+shoud be informative, concise, and consistent with certain naming
+convention. Documentation needs to be sufficient, concise, and kept
+close to the code; tools like R package **roxygen2** can be very
+helpful.
+
+## Writing
+
+It takes a lot of effort to become better at writing. Many small
+things can give you a jump start. My PhD student Jieying Jiao, who
+just defended her thesis on March 12, 2020, compiled a list of writing
+[tips](https://github.com/JieyingJiao/Writing-Style-Tips), which is a
+must-read for all my own students.
+
+## Data
+
+Clubear has [manually cleaned
+data](https://mp.weixin.qq.com/s?__biz=MzA5MjEyMTYwMg==&mid=2650247264&idx=5&sn=4d689da89074323f587fcb181a9cb2b5&exportkey=AnXq3yYNpseb6OhcgYOzIYc%3D&pass_ticket=zGnr6IL5%2Fi7Q2VyfMz0rNZgfr%2FkjSi8ISggrhBrAd7c7cEPVCByBslrOaZCDuWw3).
+
+
+Data Science Acadamy of Guizhou Province has a team who developed an R
+package [GzbdiDataSet on GitHub](https://github.com/skyyangxin/GzbdiDataSet).
