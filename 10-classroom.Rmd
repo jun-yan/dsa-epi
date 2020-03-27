@@ -1,7 +1,24 @@
 # GitHub Classroom {#classroom}
 
 We use [GitHub Classroom](https://classroom.github.com) to host the
-repos of all homework submissions. The 
+repos of all homework submissions.
+
+Some general guidelines:
+
++ Make sure the reports or presentations are reproducible on a
+  different computer of a different person.
+    - Use relative path.
+	- Do not `setwd` to a directory which only makes sense on your own
+      computer.
+	- Learn from experts (Wenjie Wang's templates and repos).
++ Keep your repo neat and clean.
+    - No intermediate, generated files.
+	- Learn to use .gitignore
+	- No binary files unless necessary (MS files are absolutely not to
+      be included in this course).
++ Really use Git and practice it in your daily life.
+    - Do not commit by uploading on GitHub.
+
 
 ## Jump start with Git and GitHub
 Work on the exercises of the first two sections of the free online Git
@@ -66,12 +83,45 @@ The assignment invitation URL is
 The invitation link is
 [here](https://classroom.github.com/g/csLGwPPe).
 
++ Presenters get more points in a team
++ A presentation can be given by multiple presenters.
++ Each slot is 30 minutes presentation plus 10 minutes questions and
+  answers.
++ Each student is required to ask at least one question during the
+  topic presentation period to earn communication points.
++ Topic could be on tools such as visualization and basic methods.
++ "I don't understand" is not an excuse for skipping any presentation;
+  Why should you understand? You are here to learn. Try pick up
+  something each time, and use search to know more.
+
 
 ## Final Project
 
 The invitation link is
 [here](https://classroom.github.com/g/xCeLKsNZ).
 
+The project proposal is due in Week 5:
+
++ 1 page with 12pt font, 2.52cm margins
++ Formulate the research quesiton after reviewing the background
++ Data sources
++ Statistical methods to address the research questions with the data
++ Possible challenges and how to solve them
+
+
+The final presentation will be in the last few weeks of the semester:
+
++ The guidelines for topic presentations apply.
++ Attendance during the final presentation period is required for the
+  attendance points; each absence costs 5 points until 10 points are
+  exhausted.
++ Each student is required to ask at least one question during the
+  final presentation period to earn communication points.
+
+The final report will be due by the end of the exam period.
+
++ Use the template from Wenjie Wang at UConn Data Science Lab.
++ No more than 8 pages including tables/figure and references.
 
 <!-- You can label chapter and section titles using `{#label}` after them, e.g., we can reference Chapter \@ref(intro). If you do not manually label them, there will be automatic labels anyway, e.g., Chapter \@ref(methods). -->
 
