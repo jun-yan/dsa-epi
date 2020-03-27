@@ -84,3 +84,10 @@ data](https://mp.weixin.qq.com/s?__biz=MzA5MjEyMTYwMg==&mid=2650247264&idx=5&sn=
 
 Data Science Acadamy of Guizhou Province has a team who developed an R
 package [GzbdiDataSet on GitHub](https://github.com/skyyangxin/GzbdiDataSet).
+
+
+Kaggle's [COVID-19 effort])https://www.kaggle.com/covid19?utm_medium=email&utm_source=intercom&utm_campaign=covid19-landing-email) aims to find factors that impact the
+transmission of COVID-19 (particularly those that map to the NASEM/WHO
+[open scientific
+questions](https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge/tasks?utm_medium=email&utm_source=intercom&utm_campaign=ai-for-ai-cord19-email)). 
+
